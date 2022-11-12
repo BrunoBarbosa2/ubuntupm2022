@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML E JAVASCRIPT TESTES</title>
+</head>
+<body>
+    <script>
+            document.bgcolor = "white"
+            document.write("<h1>Olá mundo!!!</h1>")
+            document.write("Oi povo!!!")
+            var nome = prompt("Digite o seu nome : ")
+            console.log(nome)
+            var anoNascimento = prompt ("Digite sua data de nascimento :") 
+            var anoAtual = 2022
+            var idade = anoAtual - anoNascimento;
+            document.write("<br><br>")
+            document.write("olá "+nome+"sua idade é " + idade)
+            if(idade < 18) {
+                document.bgColor = "yellow";
+                document.write("<br>Voce é menor de 18 anos!!!")
+            }
+            else if(idade < 60 ) {
+                document.bgColor = "green";
+                document.write("<br>Voce é adulto!")
+            } else {
+                document.bgColor = "blue";
+                document.write("<br>Voce já é idoso!")
+            }
+            
+            
+
+    </script>
+</body>
+
+</html>
